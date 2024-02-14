@@ -1,0 +1,42 @@
+<div class="card">
+    <div class="card-header">
+         <div class="mt-2">
+             <span><img src="../../../../../assets/images/{{icon}}.png" alt=""></span>
+             <h4>{{title}}</h4>
+             <span class="line"></span>  
+         </div>
+     </div>
+     <div class="card-body" >
+        <div class="container">
+
+            <!-- Section de Expertise -->
+            <div *ngFor="let content of data; let i = index">
+                <div *ngIf="content.module === 'expertise'" class="content">
+                    <h6 class="title text-danger">{{ content.data.start_date }} - {{ content.data.end_date }}</h6>
+                    <p class="mayus">{{ content.data.position }} | {{ content.data.company }}</p>
+                    <div class="text-center">
+                        <a class="social-link text-primary" data-bs-toggle="collapse" href="#collapse-{{i}}" role="button" (click)="openCollapse(i)"><i class="icon-angle-down" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="subtitle collapse" id="collapse-{{i}}" [ngClass]="{'show': content.data.isOpen == true}">
+                        <ul *ngFor="let funct of content.data.functions">
+                            <li>{{ funct }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section de Education -->
+            <div *ngFor="let content of data">
+                <div *ngIf="content.module === 'education'" class="content">
+                    <h6 class="title text-danger">{{ content.data.date }}</h6>
+                    <p class="mayus">{{content.data.course}} | {{content.data.institute}}</p>
+                    <p class="subtitle text-success" *ngIf="content.data.state === 'Finalized'">{{'GLOBAL.'+content.data.state | translate}}</p>
+                    <p class="subtitle text-warning" *ngIf="content.data.state === 'In training'">{{'GLOBAL.'+content.data.state | translate}}</p>
+                </div>
+            </div>
+
+        </div>
+     </div>
+</div>
+     
+

@@ -1,0 +1,14 @@
+<div class="mt-3 p-3">
+    <span><img src="../../../../../assets/images/experience.png" alt=""></span>
+    <h3>{{'SECTION_RESUME.EXPERTISE_PRO' | translate}}</h3>
+    <hr>
+</div> 
+
+<div class="ms-5" *ngFor="let expertise of expertises">
+    <h4>{{expertise.data.position}} | {{expertise.data.company}}</h4>
+    <p>{{expertise.data.start_date}} - {{expertise.data.end_date}}</p>
+
+    <ul class="list">
+        <li *ngFor="let funct of expertise.data.functions">{{funct}}</li>
+    </ul>    
+</div>

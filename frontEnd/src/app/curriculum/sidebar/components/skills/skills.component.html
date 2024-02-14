@@ -1,0 +1,14 @@
+<div class="mt-3 p-3">
+    <h3 class="text-light">{{'CURRICULUM.SKILL' | translate}}</h3>
+    <hr class="text-light">
+</div> 
+
+<div class="container">
+    <div class="bar-load" *ngFor="let skill of skills">
+        <h5 class="text-light">{{skill.technology}}</h5>
+    
+        <div class="progress" style="height: 15px;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" [style]="'width:'+skill.percentage+'%'" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{{skill.percentage + '%'}}</div>
+        </div>
+    </div>
+</div>
