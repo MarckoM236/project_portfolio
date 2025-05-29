@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "product-git": "ng build --configuration production --base-href /project_porfolio/ && rm -rf docs && mkdir docs && cp -r dist/portfolio/* docs/"
   },
   "private": true,
   "dependencies": {

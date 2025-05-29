@@ -1,0 +1,65 @@
+{
+    "HEADER": {
+      "GREETING": "Hello, I am",
+      "BTN": "Show Curriculum"
+    },
+    "FOOTER":{
+      "CREATED":"Created With",
+      "BY":"BY"
+    },
+    "NAVBAR":{
+      "HOME":"Home",
+      "ABOUT":"About",
+      "RESUME":"Resume",
+      "PORTFOLIO":"Portfolio",
+      "CONTACT":"Contact",
+      "BLOG":"My Blog"
+    },
+    "SECTION_ABOUT":{
+      "PRESENTATION":"Who am I?",
+      "INFO":"Personal Info",
+      "BIRTHDATE":"Birthdate",
+      "EMAIL":"Email",
+      "PHONE":"Phone",
+      "WHATSAPP":"Whatsapp",
+      "LOCATION":"Location",
+      "DOWNLOAD":"Download CV"
+    },
+    "SECTION_CONTACT":{
+      "CONTACT":"Get in touch",
+      "SEND":"Send a message",
+      "NAME":"Name",
+      "MESSAGE":"Message",
+      "SEND_BTN":"Send Message",
+      "REQUIRED_NAME":"Name is required",
+      "REQUIRED_EMAIL":"Email is required",
+      "REQUIRED_MESSAGE":"Message is required",
+      "VALID_EMAIL":"Invalid email"
+    },
+    "SECTION_RESUME":{
+      "RESUME":"Resume",
+      "EXPERTISE":"Expertise",
+      "EXPERTISE_PRO":"Professional Expertise",
+      "EDUCATION":"Education",
+      "SKILL":"Skill",
+      "LANGUAGES":"Languages"
+    },
+    "SECTION_PORTFOLIO":{
+      "PORTFOLIO":"Portfolio",
+      "CLOSE":"Close",
+      "MORE":"See More"
+    },
+    "CURRICULUM":{
+      "ABOUT":"About me",
+      "CONTACT":"Contact",
+      "SKILL":"Skill"
+    },
+    "GLOBAL":{
+      "SPANISH":"Spanish",
+      "ENGLISH":"English",
+      "MY":"My",
+      "In training":"In training",
+      "Finalized":"Finalized",
+      "DOWNLOAD_FILE":"Download PDF"
+    }
+  }

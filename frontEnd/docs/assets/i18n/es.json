@@ -1,0 +1,65 @@
+{
+    "HEADER": {
+      "GREETING": "Hola, Soy",
+      "BTN": "Ver Hoja de Vida"
+    },
+    "FOOTER":{
+      "CREATED":"Creado Con",
+      "BY":"Por"
+    },
+    "NAVBAR":{
+      "HOME":"Inicio",
+      "ABOUT":"Acerca De",
+      "RESUME":"Resumen",
+      "PORTFOLIO":"Portafolio",
+      "CONTACT":"Contacto",
+      "BLOG":"Mi Blog"
+    },
+    "SECTION_ABOUT":{
+      "PRESENTATION":"Quien Soy?",
+      "INFO":"Informacion Personal",
+      "BIRTHDATE":"Fecha de Nacimiento",
+      "EMAIL":"Correo Electronico",
+      "PHONE":"Telefono",
+      "WHATSAPP":"Whatsapp",
+      "LOCATION":"Ubicacion",
+      "DOWNLOAD":"Descargar CV"
+    },
+    "SECTION_CONTACT":{
+      "CONTACT":"Ponerse en contacto",
+      "SEND":"Enviar un mensaje",
+      "NAME":"Nombre",
+      "MESSAGE":"Mensaje",
+      "SEND_BTN":"Enviar Mensaje",
+      "REQUIRED_NAME":"El nombre es obligatorio",
+      "REQUIRED_EMAIL":"El email es obligatorio",
+      "REQUIRED_MESSAGE":"El mensaje es obligatorio",
+      "VALID_EMAIL":"El correo es invalido"
+    },
+    "SECTION_RESUME":{
+      "RESUME":"Resumen",
+      "EXPERTISE":"Experiencia",
+      "EXPERTISE_PRO":"Experiencia Profesional",
+      "EDUCATION":"Educacion",
+      "SKILL":"Habilidad",
+      "LANGUAGES":"Idioma"
+    },
+    "SECTION_PORTFOLIO":{
+      "PORTFOLIO":"Portafolio",
+      "CLOSE":"Cerrar",
+      "MORE":"Ver Mas"
+    },
+    "CURRICULUM":{
+      "ABOUT":"Sobre mi",
+      "CONTACT":"Contacto",
+      "SKILL":"Habilidad"
+    },
+    "GLOBAL":{
+      "SPANISH":"Español",
+      "ENGLISH":"Ingles",
+      "MY":"Mi",
+      "In training":"En Formacion",
+      "Finalized":"Finalizado",
+      "DOWNLOAD_FILE":"Descargar PDF"
+    }
+  }
