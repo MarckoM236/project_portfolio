@@ -1,1 +1,13 @@
 @import 'node_modules/themify-icons/themify-icons/_themify-icons.scss';
+
+//Sobrescribir la definición @font-face con rutas absolutas a las fuentes
+@font-face {
+  font-family: 'themify';
+  src: url('/assets/fonts/themify.eot');
+  src: url('/assets/fonts/themify.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/themify.woff') format('woff'),
+       url('/assets/fonts/themify.ttf') format('truetype'),
+       url('/assets/fonts/themify.svg#themify') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
