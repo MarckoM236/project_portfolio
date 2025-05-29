@@ -22,24 +22,56 @@ export class ResumeService {
     {
       "module":"expertise",
       "data":{
-          "start_date":new Date(2023,5,1), 
+          "start_date":new Date(2024,2,1), 
           "end_date":new Date(), 
+          "position":{
+            "en":"Backend Developer",
+            "es":"Desarrollador Backend"
+          }, 
+          "company":"Kerigma Software", 
+          "functions":{
+            "en":[
+              "MySql - Mongo DB - Postgres",
+              "Firebase - Google cloud",
+              "Html - JavaScript(JQuery, JTable, Angular) - Css(Bootstrap) - FlutterFlow",
+              "Git – GitHub",
+              "PHP - Laravel",
+              "Linux"
+            ],
+            "es":[
+              "MySql - Mongo DB - Postgres",
+              "Firebase - Google cloud",
+              "Html - JavaScript(JQuery, JTable, Angular) - Css(Bootstrap)",
+              "Git – GitHub",
+              "PHP - Laravel",
+              "Linux"
+            ]
+          }
+        }
+    },
+    {
+      "module":"expertise",
+      "data":{
+          "start_date":new Date(2023,5,1), 
+          "end_date":new Date(2024,2,1), 
           "position":{
             "en":"Freelance Developer",
             "es":"Desarrollador independiente"
           }, 
-          "company":"JVN TECNOLOGIAS", 
+          "company":"JVN TECNOLOGÌAS", 
           "functions":{
             "en":[
               "MySql",
               "Html - JavaScript(JQuery, Ajax, JTable) - Css(Bootstrap)",
               "Git – GitHub",
+              "PHP - Laravel",
               "Jira"
             ],
             "es":[
               "MySql",
               "Html - JavaScript(JQuery, Ajax, JTable) - Css(Bootstrap)",
               "Git – GitHub",
+              "PHP - Laravel",
               "Jira"
             ]
           }
@@ -48,7 +80,7 @@ export class ResumeService {
       {
         "module":"expertise",
         "data":{
-            "start_date":new Date(2022,12,12), 
+            "start_date":new Date(2022,11,12), 
             "end_date":new Date(), 
             "position":{
               "en":"Software Developer",
@@ -60,13 +92,15 @@ export class ResumeService {
                 "SQLServer - Transact SQL",
                 "FlexyGo (LowCode)",
                 "Html5 - CSS3 - JavaScript",
-                "Crystal Reports"
+                "Crystal Reports",
+                "n8n - Replit"
               ],
               "es":[
                 "SQLServer - Transact SQL",
                 "FlexyGo (LowCode)",
                 "Html5 - CSS3 - JavaScript",
-                "Crystal Reports"
+                "Crystal Reports",
+                "n8n - Replit"
               ]
             }
           }
@@ -75,7 +109,7 @@ export class ResumeService {
         "module":"expertise",
         "data":{
           "start_date":new Date(2022,6,16), 
-          "end_date":new Date(2022,12,9), 
+          "end_date":new Date(2022,11,9), 
           "position":
           {
             "en":"Aplication Analyst",
@@ -124,10 +158,10 @@ export class ResumeService {
           }
         }
       },
-      {
+      /* {
         "module":"expertise",
         "data":{
-          "start_date":new Date(2019,11,7), 
+          "start_date":new Date(2018,11,7), 
           "end_date":new Date(2021,3,12), 
           "position":{
             "en":"FUNCTIONAL SUPPORT",
@@ -149,7 +183,7 @@ export class ResumeService {
             ]
           }
         }
-      }
+      } */
     ]
   }
 
@@ -158,13 +192,13 @@ export class ResumeService {
       {
         "module":"education",
         "data":{
-          "date":new Date(), 
+          "date":new Date(2025,3,26), 
           "course":{
             "en":"SYSTEMS ENGINEERING",
             "es":"Ingenieria de Sistemas"
           }, 
           "institute":"UNAD", 
-          "state":"In training"
+          "state":"Finalized"
         }
       },
       {
@@ -282,7 +316,7 @@ export class ResumeService {
           "en":"English",
           "es":"Ingles"
         },
-        "percentage":35
+        "percentage":45
       }
     ]
 

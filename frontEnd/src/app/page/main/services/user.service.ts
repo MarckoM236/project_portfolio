@@ -34,53 +34,37 @@ export class UserService {
         "gitHub" : "https://github.com/MarckoM236"
       },
       "professional_profile" : {
-        "en":`<p class='text-light'>
-                Technologist in analysis and development of
-                information systems, currently
-                finishing systems engineering with experience in the support area,
-                providing support on site and in form
-                remote, server management
-                domain, LAN and WAN networks, systems
-                Linux and Windows operating systems.
+        "en":`<p class='text-light'><strong>Systems Engineer</strong> with experience in backend development and web technologies.</p>
+              <p class='text-light'>
+                I mainly work as a backend developer, with hands-on experience in the PHP ecosystem, especially using 
+                <strong>Laravel</strong>, along with <strong>MySQL</strong> and <strong>MongoDB</strong> for database management. 
+                I’ve also worked with <strong>Angular</strong> on the frontend and use low-code/no-code tools like 
+                <strong>FlutterFlow</strong>, <strong>n8n</strong>, and <strong>Replit</strong> to automate workflows and quickly prototype ideas.
               </p>
               <p class='text-light'>
-                MySql, Oracle, SQL Server databases.
+                My technical skills include designing and consuming REST APIs, structuring databases, integrating services, and 
+                version control with <strong>Git/GitHub</strong>. I’m a logical thinker, a fast learner, and committed to following 
+                best development practices.
               </p>
               <p class='text-light'>
-                Experience in the area of ​​software development using
-                languages ​​<strong>PHP</strong>(Laravel, Codeigniter, MVC), <strong>JavaScript</strong>(Ajax, Jquery, Angular), <strong>Java</strong>,
-                <strong>C#</strong> and version controller management <strong>GIT - GitHub</strong>.
-              </p>
-              <p class='text-light'>
-                Always willing to learn new things
-                technologies, comply with the different
-                obligations and labor standards that
-                are established, high
-                responsibility and teamwork.
+                I'm currently working on scalable web application projects, always looking to improve code performance 
+                and maintainability.
               </p>`,
-        "es":`<p class='text-light'>
-                Tecnólogo en análisis y desarrollo de
-                sistemas de información, actualmente finalizando
-                Ingeniería de Sistemas  con experiencia en el área de soporte,
-                brindando soporte en sitio y en forma
-                remota gestion de servidores de
-                dominio, redes LAN y WAN, 
-                Sistemas operativos Linux y Windows.
+        "es":`<p class='text-light'><strong>Ingeniero de Sistemas</strong> con experiencia en desarrollo backend y tecnologías web.</p>
+              <p class='text-light'>
+                Trabajo principalmente como desarrollador backend, con experiencia en el ecosistema PHP, especialmente usando 
+                <strong>Laravel</strong>, junto con <strong>MySQL</strong> y <strong>MongoDB</strong> para la gestión de bases de datos. 
+                También he trabajado con <strong>Angular</strong> en el frontend y uso herramientas low-code/no-code como 
+                <strong>FlutterFlow</strong>, <strong>n8n</strong> y <strong>Replit</strong> para automatizar procesos y crear prototipos de forma ágil.
               </p>
               <p class='text-light'>
-                MySql, Oracle, SQL Server databases.
+                Tengo conocimientos en el diseño y consumo de APIs REST, estructuración de bases de datos, integración de servicios 
+                y control de versiones con <strong>Git/GitHub</strong>. Me considero una persona lógica, curiosa y comprometida con 
+                las buenas prácticas de desarrollo.
               </p>
               <p class='text-light'>
-                Experiencia en el área de desarrollo de software utilizando
-                lenguajes <strong>PHP</strong>(Laravel, Codeigniter, MVC), <strong>JavaScript</strong>(Ajax, Jquery, Angular), <strong>Java</strong>,
-                <strong>C#</strong> y controlador de versiones <strong>GIT - GitHub</strong>.
-              </p>
-              <p class='text-light'>
-                Siempre dispuesto a aprender nuevas
-                tecnologías, cumplir con las diferentes
-                obligaciones y normas laborales que
-                están establecidas, alta
-                responsabilidad y trabajo en equipo.
+                Actualmente participo en el desarrollo de aplicaciones web escalables, siempre buscando optimizar el rendimiento 
+                y la mantenibilidad del código.
               </p>`
       },
       "interests" : {
