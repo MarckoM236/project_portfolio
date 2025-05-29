@@ -11,7 +11,7 @@ export class UserService {
 
   getUserInfo(){
     return this.user = {
-      "photo" : "../../../../assets/images/fotoCV.jpg",
+      "photo" : "assets/images/fotoCV.jpg",
       "first_name" : "Marco",
       "second_name" : "Antonio",
       "first_lastname" : "Marin",
